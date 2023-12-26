@@ -1,0 +1,46 @@
+.container {
+    padding: 25px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: row;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+    gap: 30px;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        &__header {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+
+            // margin-bottom: 10px;
+            p {
+                color: #000;
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+
+        &__deskription {
+            width: 80%;
+            color: #000;
+            font-size: 16px;
+        }
+
+        &__mentors {
+            color: #000;
+        }
+
+        &__boxRating {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+    }
+}
