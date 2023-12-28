@@ -32,7 +32,7 @@ const NavbarComponent = () => {
                 <div className={styles.navbar__container__link}>
                     <Link href="/" className={`${styles.navbar__container__link__item} ${pathname === '/' && styles.navbar__container__link__item__active}`}>Home</Link>
                     <Link href="/courses" className={`${styles.navbar__container__link__item} ${pathname === '/courses' && styles.navbar__container__link__item__active}`}>Courses</Link>
-                    <Link href="" className={`${styles.navbar__container__link__item} ${pathname === '/bootcamp' && styles.navbar__container__link__item__active}`}>Bootcamp</Link>
+                    <Link href="/bootcamp" className={`${styles.navbar__container__link__item} ${pathname === '/bootcamp' && styles.navbar__container__link__item__active}`}>Bootcamp</Link>
                     <Link href="" className={`${styles.navbar__container__link__item} ${pathname === '/about' && styles.navbar__container__link__item__active}`}>about</Link>
                 </div>
                 <div className={styles.navbar__container__box}>

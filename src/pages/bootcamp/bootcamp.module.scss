@@ -1,0 +1,40 @@
+.container {
+    margin: 30px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            align-self: center;
+        }
+        
+        &__horizontalScroll {
+            align-self: center;
+            width: 500px;
+            // background-color: bisque;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &__button {
+                width: 100px;
+                border-radius: 50px;
+                background-color: black;
+                box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+
+                &:hover {
+                    background-color: #444ab9;
+                }
+            }
+        }
+
+        &__boxProduct{
+            display: flex;
+            flex-direction: row;
+            padding: 50px 120px;
+            flex-wrap: wrap;
+            gap: 50px;
+        }
+    }
+}

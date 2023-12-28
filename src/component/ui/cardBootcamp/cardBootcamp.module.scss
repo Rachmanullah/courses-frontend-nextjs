@@ -1,0 +1,58 @@
+.container {
+    width: 350px;
+    height: 550px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 1);
+
+    &__BoxCategory {
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        position: relative;
+        top: -50px;
+        &__title {
+            color: #FFFFFF;
+            font-weight: bolder;
+        }
+    }
+
+    &__content {
+        top: -50px;
+        padding: 15px;
+        position: relative;
+        &__title {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 5px 0;
+        }
+
+        &__date {
+            font-size: 14px;
+            font-variant: normal;
+            padding: 5px 0;
+            color: #000;
+        }
+
+        &__description {
+            color: #000;
+            padding: 5px 0;
+            font-variant: normal;
+        }
+
+        &__price {
+            color: #000;
+            font-size: 20px;
+            padding: 5px 0;
+            font-weight: bolder;
+        }
+
+        &__button{
+            width: 100%;
+            border-radius: 20px;
+            margin: 10px 0;
+            &:hover{
+                background-color: #000;
+            }
+        }
+    }
+}
