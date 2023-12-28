@@ -29,6 +29,11 @@
                     color: #000;
                     transition: 0.5s;
                 }
+
+                &__active {
+                    background-color: #fff;
+                    color: #000;
+                }
             }
         }
 
@@ -37,10 +42,36 @@
             flex-direction: row;
             gap: 10px;
             margin-right: 50px;
+
             &__button {
                 padding: 10px;
                 border-radius: 10px;
-                &:hover{
+
+                &:hover {
+                    opacity: 0.5;
+                    transition: 0.5s;
+                }
+            }
+        }
+
+        &__modal {
+            &__hr {
+                color: #000;
+                margin: 10px 0;
+            }
+
+            &__title {
+                font-size: 30px;
+                align-self: center;
+            }
+
+            &__button {
+                padding: 15px 10px;
+                align-self: flex-end;
+                border-radius: 10px;
+                width: 100%;
+
+                &:hover {
                     opacity: 0.5;
                     transition: 0.5s;
                 }
